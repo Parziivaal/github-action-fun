@@ -1,0 +1,11 @@
+name: Custom Runners
+
+on: push
+
+jobs:
+  echo:
+    runs-on: self-hosted
+    steps:
+    - run: echo 'Hello Github'
+
+  
